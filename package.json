@@ -1,5 +1,6 @@
 {
   "name": "blink-mind-nyanko",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
