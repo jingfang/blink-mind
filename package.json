@@ -1,11 +1,10 @@
 {
-  "private": true,
-  "name": "blink-mind",
+  "name": "blink-mind-nyanko",
   "workspaces": [
     "packages/*"
   ],
   "version": "0.0.0",
-  "author": "awehook <awehook@163.com>",
+  "author": "jingfang",
   "license": "MIT",
   "scripts": {
     "prepublish": "yarn build",
