@@ -706,7 +706,7 @@ function HotKeyPlugin() {
                     HotKeyName.DELETE_TOPIC,
                     {
                         label: 'delete topic',
-                        combo: 'backspace',
+                        combo: 'del',
                         onKeyDown: handleKeyDown(core.OpType.DELETE_TOPIC)
                     }
                 ],

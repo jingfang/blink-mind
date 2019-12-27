@@ -50,7 +50,7 @@ export function HotKeyPlugin() {
           HotKeyName.DELETE_TOPIC,
           {
             label: 'delete topic',
-            combo: 'backspace',
+            combo: 'del',
             onKeyDown: handleKeyDown(OpType.DELETE_TOPIC)
           }
         ],
