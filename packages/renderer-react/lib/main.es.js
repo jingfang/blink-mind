@@ -7,7 +7,7 @@ import '@blink-mind/icons';
 import { Breadcrumbs, PopoverPosition, Breadcrumb, Tooltip, Dialog, Classes, MenuItem, Divider, Button, Popover, NumericInput, InputGroup, ContextMenuTarget, Menu, PopoverInteractionKind, Drawer, Hotkey, Hotkeys, HotkeysTarget } from '@blueprintjs/core';
 import '@blueprintjs/core/lib/css/blueprint.css';
 import memoizeOne from 'memoize-one';
-import SimpleTextEditorPlugin from '@blink-mind/plugin-simple-text-editor';
+import SimpleTextEditorPlugin from 'blink-mind/packages/plugin-simple-text-editor';
 import { Stack, List } from 'immutable';
 import { SketchPicker } from 'react-color';
 import { Select } from '@blueprintjs/select';

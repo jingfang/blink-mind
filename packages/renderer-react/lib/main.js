@@ -14,7 +14,7 @@ require('@blink-mind/icons');
 var core$1 = require('@blueprintjs/core');
 require('@blueprintjs/core/lib/css/blueprint.css');
 var memoizeOne = _interopDefault(require('memoize-one'));
-var SimpleTextEditorPlugin = _interopDefault(require('@blink-mind/plugin-simple-text-editor'));
+var SimpleTextEditorPlugin = _interopDefault(require('blink-mind/packages/plugin-simple-text-editor'));
 var immutable = require('immutable');
 var reactColor = require('react-color');
 var select = require('@blueprintjs/select');

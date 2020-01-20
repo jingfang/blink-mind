@@ -1,4 +1,4 @@
-import SimpleTextEditorPlugin from '@blink-mind/plugin-simple-text-editor';
+import SimpleTextEditorPlugin from 'blink-mind/packages/plugin-simple-text-editor';
 import { DragAndDrop } from './drag-and-drop';
 import { EventPlugin } from './event';
 import { HotKeyPlugin } from './hotkey';
