@@ -159,7 +159,7 @@ var TopicContentEditor = /** @class */ (function (_super) {
             block: block,
             readOnly: readOnly,
             refKeyPrefix: refKeyPrefix,
-            placeholder: 'new',
+            // placeholder: 'new',
             style: style
         };
     };

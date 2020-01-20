@@ -20,7 +20,7 @@ export class TopicContentEditor extends SimpleTextEditor {
       block,
       readOnly,
       refKeyPrefix,
-      placeholder: 'new',
+      // placeholder: 'new',
       style
     };
   }
