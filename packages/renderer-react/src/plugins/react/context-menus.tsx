@@ -43,7 +43,7 @@ const items: TopicContextMenuItemConfig[] = [
   {
     icon: 'delete-node',
     label: 'delete node',
-    shortcut: 'Del',
+    shortcut: 'delete',
     opType: OpType.DELETE_TOPIC
   },
   {
