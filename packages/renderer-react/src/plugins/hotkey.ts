@@ -11,7 +11,8 @@ export const HotKeyName = {
   DELETE_TOPIC: 'DELETE_TOPIC',
   EDIT_CONTENT: 'EDIT_CONTENT',
   EDIT_NOTES: 'EDIT_NOTES',
-  SET_EDITOR_ROOT: 'SET_EDITOR_ROOT'
+  SET_EDITOR_ROOT: 'SET_EDITOR_ROOT',
+  SET_TOPIC_CONTENT: 'SET_TOPIC_CONTENT'
 };
 
 function op(opType: string, props) {
@@ -76,6 +77,14 @@ export function HotKeyPlugin() {
             label: 'set editor root',
             combo: 'alt + shift + f',
             onKeyDown: handleKeyDown(OpType.SET_EDITOR_ROOT)
+          }
+        ],
+        [
+          HotKeyName.SET_TOPIC_CONTENT,
+          {
+            label: 'set node content',
+            combo: 'enter',
+            onKeyDown: handleKeyDown(OpType.SET_TOPIC_CONTENT)
           }
         ]
       ]);
