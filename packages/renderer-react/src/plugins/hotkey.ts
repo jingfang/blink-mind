@@ -2,7 +2,7 @@ import { OpType } from '@blink-mind/core';
 
 export interface HotKeyConfig {
   combo: string;
-  onKeyDown: Function;
+  onKeyUp: Function;
 }
 
 export const HotKeyName = {
@@ -35,7 +35,7 @@ export function HotKeyPlugin() {
           {
             label: 'add child',
             combo: 'tab',
-            onKeyDown: handleKeyDown(OpType.ADD_CHILD)
+            onKeyUp: handleKeyDown(OpType.ADD_CHILD)
           }
         ],
         [
@@ -43,7 +43,7 @@ export function HotKeyPlugin() {
           {
             label: 'add sibling',
             combo: 'enter',
-            onKeyDown: handleKeyDown(OpType.ADD_SIBLING)
+            onKeyUp: handleKeyDown(OpType.ADD_SIBLING)
           }
         ],
         [
@@ -51,7 +51,7 @@ export function HotKeyPlugin() {
           {
             label: 'delete topic',
             combo: 'backspace',
-            onKeyDown: handleKeyDown(OpType.DELETE_TOPIC)
+            onKeyUp: handleKeyDown(OpType.DELETE_TOPIC)
           }
         ],
         [
@@ -59,7 +59,7 @@ export function HotKeyPlugin() {
           {
             label: 'edit content',
             combo: 'space',
-            onKeyDown: handleKeyDown(OpType.START_EDITING_CONTENT)
+            onKeyUp: handleKeyDown(OpType.START_EDITING_CONTENT)
           }
         ],
         [
@@ -67,7 +67,7 @@ export function HotKeyPlugin() {
           {
             label: 'edit notes',
             combo: 'alt + d',
-            onKeyDown: handleKeyDown(OpType.START_EDITING_DESC)
+            onKeyUp: handleKeyDown(OpType.START_EDITING_DESC)
           }
         ],
         [
@@ -75,7 +75,7 @@ export function HotKeyPlugin() {
           {
             label: 'set editor root',
             combo: 'alt + shift + f',
-            onKeyDown: handleKeyDown(OpType.SET_EDITOR_ROOT)
+            onKeyUp: handleKeyDown(OpType.SET_EDITOR_ROOT)
           }
         ]
       ]);
